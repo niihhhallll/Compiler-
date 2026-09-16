@@ -1,0 +1,3 @@
+/home/gigu/Projects/Compiler/build/CMakeFiles/Com.dir
+/home/gigu/Projects/Compiler/build/CMakeFiles/edit_cache.dir
+/home/gigu/Projects/Compiler/build/CMakeFiles/rebuild_cache.dir

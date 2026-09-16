@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Com.dir/src/main.cpp.o CMakeFiles/Com.dir/src/reader.cpp.o -o Com 
