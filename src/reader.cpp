@@ -1,14 +1,7 @@
-#include <fstream>
-#include <string>
-#include <vector>
-#include <iostream>
-#include <optional>
-#include <filesystem>
 #include "../include/reader.hpp"
 
     std::optional<std::vector<std::string>> Reader::Read(const std::filesystem::path& FilePath)
     {
-
         // constructor for opening file.
         std::ifstream File(FilePath);
         /*

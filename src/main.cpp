@@ -8,7 +8,7 @@ int main()
         for(auto a : *result)
     {
         std::cout << a << std::endl;
-    }
+        }
     }
     return 0;
 }
