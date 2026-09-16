@@ -4,9 +4,9 @@
 #include <vector>
 #include <iostream>
 #include <optional>
-#include <memory>
+#include <filesystem>
 
 namespace Reader
 {
-     std::optional<std::shared_ptr<std::vector<std::string>>> Read(const std::string& FilePath);
+     std::optional<std::vector<std::string>> Read(const std::filesystem::path& FilePath);
 }

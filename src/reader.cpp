@@ -6,12 +6,10 @@
 #include <memory>
 #include "../include/reader.hpp"
 
-namespace Reader
-{
-    std::optional<std::shared_ptr<std::vector<std::string>>> Read(const std::string& FilePath)
+    std::optional<std::vector<std::string>> Reader::Read(const std::string& FilePath)
     {
         // exception handling
-        try{
+
         // constructor for opening file.
         std::fstream File(FilePath);
         /*
@@ -21,11 +19,12 @@ namespace Reader
         if(!File.is_open())
         {
             std::cerr << "Cannot Open " << FilePath << std::endl;
-            throw std::runtime_error("Cannot Open The FilePath.");
+            return std::nullopt;
         }
 
         // makes a heap allocated smart pointer for VecLine.
-        std::shared_ptr<std::vector<std::string>> VecLine = std::make_shared<std::vector<std::string>>();
+        // this is only for the readability, i will make this into a `auto VecLine`.
+        std::vector<std::string> VecLine{};
         /*
          * Temp Line object
          * it reads line by line.
@@ -33,7 +32,6 @@ namespace Reader
          * so it can return to the function called.
          */
         std::string Line;
-        int inc = 0;
         while(std::getline(File,Line))
         {
             // push back to the vector.
@@ -41,12 +39,3 @@ namespace Reader
         }
         return VecLine;
         }
-
-        // exception handling (catch).
-        catch(std::exception& e)
-        {
-            std::cerr << e.what() << std::endl;
-            return std::nullopt;
-        }
-    }
-}
