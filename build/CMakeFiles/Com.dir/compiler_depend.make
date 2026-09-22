@@ -239,15 +239,11 @@ CMakeFiles/Com.dir/src/reader.cpp.o: /home/gigu/Projects/Compiler/src/reader.cpp
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
-  /usr/include/c++/13/backward/auto_ptr.h \
   /usr/include/c++/13/backward/binders.h \
   /usr/include/c++/13/bit \
-  /usr/include/c++/13/bits/align.h \
   /usr/include/c++/13/bits/alloc_traits.h \
   /usr/include/c++/13/bits/allocated_ptr.h \
   /usr/include/c++/13/bits/allocator.h \
-  /usr/include/c++/13/bits/atomic_base.h \
-  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
   /usr/include/c++/13/bits/basic_ios.h \
   /usr/include/c++/13/bits/basic_ios.tcc \
   /usr/include/c++/13/bits/basic_string.h \
@@ -299,7 +295,6 @@ CMakeFiles/Com.dir/src/reader.cpp.o: /home/gigu/Projects/Compiler/src/reader.cpp
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/shared_ptr.h \
-  /usr/include/c++/13/bits/shared_ptr_atomic.h \
   /usr/include/c++/13/bits/shared_ptr_base.h \
   /usr/include/c++/13/bits/sstream.tcc \
   /usr/include/c++/13/bits/std_abs.h \
@@ -311,8 +306,6 @@ CMakeFiles/Com.dir/src/reader.cpp.o: /home/gigu/Projects/Compiler/src/reader.cpp
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
-  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
   /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
@@ -355,12 +348,9 @@ CMakeFiles/Com.dir/src/reader.cpp.o: /home/gigu/Projects/Compiler/src/reader.cpp
   /usr/include/c++/13/istream \
   /usr/include/c++/13/limits \
   /usr/include/c++/13/locale \
-  /usr/include/c++/13/memory \
   /usr/include/c++/13/new \
   /usr/include/c++/13/optional \
   /usr/include/c++/13/ostream \
-  /usr/include/c++/13/pstl/execution_defs.h \
-  /usr/include/c++/13/pstl/glue_memory_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/ratio \
   /usr/include/c++/13/sstream \
@@ -478,10 +468,6 @@ CMakeFiles/Com.dir/src/reader.cpp.o: /home/gigu/Projects/Compiler/src/reader.cpp
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
 
-/usr/include/c++/13/bits/shared_ptr_atomic.h:
-
-/usr/include/c++/13/backward/auto_ptr.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
@@ -516,15 +502,11 @@ CMakeFiles/Com.dir/src/reader.cpp.o: /home/gigu/Projects/Compiler/src/reader.cpp
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
-/usr/include/c++/13/bits/stl_tempbuf.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/c++/13/bits/stl_raw_storage_iter.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
@@ -550,8 +532,6 @@ CMakeFiles/Com.dir/src/reader.cpp.o: /home/gigu/Projects/Compiler/src/reader.cpp
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
-/usr/include/c++/13/pstl/glue_memory_defs.h:
-
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
@@ -574,8 +554,6 @@ CMakeFiles/Com.dir/src/reader.cpp.o: /home/gigu/Projects/Compiler/src/reader.cpp
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
-/usr/include/c++/13/memory:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
@@ -595,8 +573,6 @@ CMakeFiles/Com.dir/src/reader.cpp.o: /home/gigu/Projects/Compiler/src/reader.cpp
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/c++/13/bits/atomic_lockfree_defines.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -697,8 +673,6 @@ CMakeFiles/Com.dir/src/reader.cpp.o: /home/gigu/Projects/Compiler/src/reader.cpp
 /usr/include/c++/13/bits/codecvt.h:
 
 /usr/include/c++/13/bits/stl_vector.h:
-
-/usr/include/c++/13/pstl/execution_defs.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
 
@@ -852,8 +826,6 @@ CMakeFiles/Com.dir/src/reader.cpp.o: /home/gigu/Projects/Compiler/src/reader.cpp
 
 /usr/include/c++/13/optional:
 
-/usr/include/c++/13/bits/align.h:
-
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/c++/13/bits/unique_ptr.h:
@@ -863,8 +835,6 @@ CMakeFiles/Com.dir/src/reader.cpp.o: /home/gigu/Projects/Compiler/src/reader.cpp
 /usr/include/wctype.h:
 
 /usr/include/c++/13/exception:
-
-/usr/include/c++/13/bits/atomic_base.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 

@@ -1,5 +1,6 @@
 CMakeFiles/Com.dir/src/reader.cpp.o: \
  /home/gigu/Projects/Compiler/src/reader.cpp /usr/include/stdc-predef.h \
+ /home/gigu/Projects/Compiler/src/../include/reader.hpp \
  /usr/include/c++/13/fstream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -180,5 +181,4 @@ CMakeFiles/Com.dir/src/reader.cpp.o: \
  /usr/include/c++/13/bits/allocated_ptr.h \
  /usr/include/c++/13/bits/unique_ptr.h \
  /usr/include/c++/13/ext/aligned_buffer.h \
- /usr/include/c++/13/bits/fs_dir.h /usr/include/c++/13/bits/fs_ops.h \
- /home/gigu/Projects/Compiler/src/../include/reader.hpp
+ /usr/include/c++/13/bits/fs_dir.h /usr/include/c++/13/bits/fs_ops.h
